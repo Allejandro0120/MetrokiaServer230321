@@ -192,7 +192,7 @@ function sendMail () {
     BodyToMail += "<p style='text-align:center;'>"+$( "#Valor2" ).text()+"</p><br><br>";
     
     if ($("#Centro option:selected").val() == 1){
-        dest = 'alejoperez0120@gmail.com';
+        dest = 'alejoperez0120@gmail.com,jperez_0120@hotmail.com';
     }
     if ($("#Centro option:selected").val() == 2){
         dest = 'mtka1talvil@kia.com.co';

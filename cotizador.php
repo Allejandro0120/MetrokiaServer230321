@@ -46,7 +46,7 @@
             <form>
             <section id="PersonalData">
                 <h2>Datos Generales</h2>
-                <h4>Para cotizar tu reparació rápida te invitamos a diligenciar el siguiente formulario</h4>
+                <h4>Para cotizar tu reparación rápida te invitamos a diligenciar el siguiente formulario</h4>
                 <div class="contenedor">
                     <article class="HalfColumn">
                         <label for="Nombres">Nombre:</label>
