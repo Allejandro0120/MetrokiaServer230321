@@ -1,0 +1,6 @@
+[16-Feb-2021 06:20:11 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'cotiz1'@'localhost' (using password: YES) in /home/u411413023/domains/reparacionrapida.com/public_html/metrokia/conexion.php on line 6
+[16-Feb-2021 06:20:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/u411413023/domains/reparacionrapida.com/public_html/metrokia/conexion.php:8
+Stack trace:
+#0 /home/u411413023/domains/reparacionrapida.com/public_html/metrokia/cotizador.php(3): require()
+#1 {main}
+  thrown in /home/u411413023/domains/reparacionrapida.com/public_html/metrokia/conexion.php on line 8

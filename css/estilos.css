@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(fontello.css);
+@import url(banner.css);
+@import url(Terms.css);
+@import url(menu.css);
+@import url(Button.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'KiaOTFMedium';
+    src: url('../font-kia/KiaM.otf');
+}
+
+body{
+    font-family: 'KiaOTFMedium';
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+#logo {
+    float: left;
+}
+/*
+header .contenedor{
+    display: table;
+}
+*/
+section {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#Intro {
+    text-align: justify;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+#Intro h2 {
+    text-align: center;
+    color: #01589b;
+}
+
+#Intro ul {
+    list-style-position: inside;
+}
+
+@media (min-width:1025px) {
+    header .contenedor {
+        width: 1024px;
+    }
+
+    main {
+        font-size: 16px;
+    }
+}
+
+@media (min-width:1249px) {
+    header .contenedor {
+        width: 1024px;
+    }
+
+    main {
+        font-size: 22px;
+    }
+}
+
+@media (min-width:1560px) {
+    header .contenedor {
+        width: 1560px;
+    }
+
+    main {
+        font-size: 26px;
+    }
+}
+
+@media (min-width:1840px) {
+    header .contenedor {
+        width: 1560px;
+    }
+
+    main {
+        font-size: 30px;
+    }
+}

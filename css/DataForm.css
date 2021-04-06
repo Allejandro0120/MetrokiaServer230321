@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@700&display=swap');
+
+main {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+main input,select {
+    border: 1px solid #e5e5e5;
+    height: 50px;
+    /* padding: 20px; */
+    font-size: 18px;
+    line-height: 19px;
+    color: #333333;
+    max-width: 100%;
+    /*margin-bottom: 20px;*/
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    padding: 12px 35px;
+    padding-top: 12px;
+    padding-right: 35px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    font-weight: 400;
+    font-family: 'KiaOTFMedium';
+}
+
+main label {
+    font-family: 'KiaOTFMedium';
+    color: #666666;
+    font-weight: bold;
+}
+
+#PersonalData {
+    margin: auto;
+    margin-top: 50px;
+    width: 95%;
+    font-family: 'KiaOTFMedium';
+}
+
+#PersonalData .contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#PersonalData article {
+    width: 95%;
+    margin: 15px;
+    text-align: center;
+}
+
+#PersonalData h3 {
+    text-align: center;
+	width: 100%
+}
+
+#PersonalData button {
+    font-family: 'KiaOTFMedium';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-image: none;
+    height: 50px;
+    background-color: #bc162c;
+    line-height: 50px;
+    padding: 0 24px 0 32px;
+    cursor: pointer;
+    /* letter-spacing: 1px; */
+    white-space: nowrap;
+    border: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#TablaResumen {
+    visibility:hidden; 
+    margin-left: auto; 
+    margin-right:auto; 
+    border: 3px #bc162c solid;
+    font-family: 'KiaOTFMedium';
+}
+
+#ImageLoadCar {
+    visibility: hidden;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+@media (min-width:1024px) {
+    #PersonalData article.HalfColumn {
+        width: 45%; 
+     }
+}
+
+@media (min-width:1024px) {
+    #PersonalData article.ThirdColumn {
+        width: 28%; 
+     }
+}
+

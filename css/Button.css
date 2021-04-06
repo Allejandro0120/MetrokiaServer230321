@@ -1,0 +1,50 @@
+#Button {
+    text-align: center;
+}
+
+#Button a {
+    color:#000000;
+}
+
+#Button Button {
+    color:black; background-color:#FFF633; 
+    width: 60%; 
+    height: 80px; 
+    font-size: x-large; 
+    border-radius: 24px; 
+    border: solid black 4px;
+    cursor: pointer;
+    transition: 0.6s;
+    animation: ease-in;
+}
+
+Button.increasing {
+    width: 80% !important;
+    transition: 0.6s;
+    animation: ease-in;
+}
+
+Button.decreasing {
+    width: 10% !important;
+    transition: 0.6s;
+    animation: ease-out;
+}
+
+
+
+
+@media (min-width:768px) {
+    #Button button {
+        width: 45%; 
+        transition: 0.6s;
+        animation: ease-in;
+     }
+}
+
+@media (min-width:1024px) {
+    #Button button {
+        width: 30%;  
+        transition: 0.6s;
+        animation: ease-in;
+     }
+}

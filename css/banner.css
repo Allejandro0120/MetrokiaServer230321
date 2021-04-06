@@ -1,0 +1,93 @@
+#banner {
+    margin: auto;
+    margin-top: 50px;
+    width: 95%;
+    overflow: hidden;
+}
+
+#banner ul{
+    display: flex;
+    padding: 0;
+    width: 700%;
+    margin-left: -100%;
+    
+    /*animation: slider 20s infinite alternate;*/
+}
+
+#banner li{
+    list-style: none;
+    width: 100%;
+}
+
+#banner img{
+    width: 100%;
+}
+
+#btn-prev, #btn-next {
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    line-height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'KiaOTFMedium';
+    cursor: pointer;
+}  
+
+#btn-prev:hover, #btn-next:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#btn-prev {
+    left: 10px;
+}
+
+#btn-next {
+    right: 10px;
+}
+/*
+@keyframes slider {
+    0% { margin-left: 0; }
+    16% { margin-left: 0; }
+
+    20% { margin-left: -100%; }
+    36% { margin-left: -100%; }
+
+    40% { margin-left: -200%; }
+    56% { margin-left: -200%; }
+
+    60% { margin-left: -300%; }
+    76% { margin-left: -300%; }
+
+    80% { margin-left: -400%; }
+    100% { margin-left: -400%; }
+}*/
+
+@media (min-width:600px) {
+    #btn-prev, #btn-next {
+        top: 40%;
+     }
+}
+
+@media (min-width:800px) {
+    #btn-prev, #btn-next {
+        top: 50%;
+     }
+}
+
+@media (min-width:1000px) {
+    #btn-prev, #btn-next {
+        top: 60%;
+     }
+}
+
+@media (min-width:1200px) {
+    #btn-prev, #btn-next {
+        top: 65%;
+     }
+}
